@@ -24,7 +24,7 @@ def main():
         
        
 
-        input_variables = pd.DataFrame([[Pregnancies,Glucose,BloodPressure,SkinThickness
+        input_variables = pandas.DataFrame([[Pregnancies,Glucose,BloodPressure,SkinThickness
         ,Insulin,BMI,DiabetesPedigreeFunction,Age]],columns=['Pregnancies', 'Glucose', 'BloodPressure', 'SkinThickness', 'Insulin',
        'BMI', 'DiabetesPedigreeFunction', 'Age'
        ])
