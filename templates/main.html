@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html>
 <title>Diabetes prediction for pregnant women</title>
-<head>
+<head> 
 <style type="text/css">
+h1 
+{
+    text-align: center;
+}
 div
 {
    width:100px;
    height:75px;
-   background-color:grey;
+   background-color:white;
    border:1px solid black;
 }
 
@@ -25,6 +29,7 @@ form {
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
+<h1>Diabetes diagnosis system</h1>
 <body>
 <form action="{{ url_for('main') }}" method="POST">
         <fieldset>
@@ -55,8 +60,8 @@ form {
         <p style="font-size: 50px">{{ result }}</p>
          <br>
           
+          
     </div> 
     
 </body>
 </html>
-
